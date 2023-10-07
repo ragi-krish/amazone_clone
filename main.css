@@ -1,4 +1,27 @@
-nav .navbar{
-    background-color: aqua;
-    color: brown;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+i{
+    margin-left: 6px;
+}
+.sticky-top{
+    top: 30px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+.img-fluid.user {
+    max-width: fit-content;
+    height: auto;
+}
+.movieslist{
+    margin-top: 6rem;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    padding-top: 10rem;
 }
