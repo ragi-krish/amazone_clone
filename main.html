@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="container-fluid bg-dark ">
-      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary rounded-3">
+      <!--navbar starting here-->
+      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark rounded-3">
         <div class="container-fluid">
-          <a class="navbar-brand text-white m-b-0 h1" href="#">Navbar</a>
+          <a class="navbar-brand text-white h1" href="#">prime video</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav justify-content-center navbar-nav mb-2 me-auto mb-lg-0">
+        <!--   <div class="navbar-collapse justify-content-center main-ul" id="navbarSupportedContent"> -->
+          <div class="navbar-collapse justify-content-center px-0" id="navbarNav">
+            <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-center">
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
               </li>
@@ -41,21 +43,25 @@
                 <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">My Stuff</a>
               </li>
             </ul>
-            <ul class="nav justify-content-end navbar-nav mb-2 me-auto mb-lg-0">
-              <li class="nav-list">
-                <i class="fa-solid fa-magnifying-glass" style="color: #d5dae1;"></i>
-                <img src="./assets/user_3177440.png" class="img-fluid user" alt="user" width="5%" height="auto"> 
-              </li>
-            </ul>
-           
-            
-            
-            
+          </div>
+          <div class="navbar-collapse justify-content-end px-0 with__user" id="navbarNav">
+              <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+                <li class="nav-item">
+                  <i class="fa-solid fa-magnifying-glass" style="color: #d5dae1;"></i>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="./assets/user_3177440.png" alt="" width="35" height="35" class="rounded-circle">
+                  </a>
+                </li>
+              </ul>
           </div>
         </div>
       </nav> 
-      
-      <div class="container">
+      <!--navbar ending here-->
+      <!--carousel starting here-->
+      <section class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

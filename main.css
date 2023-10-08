@@ -3,19 +3,48 @@
     padding:0;
     box-sizing:border-box;
 }
-
+.navbar {
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+}
 i{
     margin-left: 6px;
 }
+.with__user ul li:last-child{
+    margin-right: 2rem;
+} 
+
+.navbar-brand{
+    margin-left: 2rem;
+}
 .sticky-top{
     top: 30px;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .main-ul{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li{
+    margin-left: 2rem;
+
   }
 .img-fluid.user {
     max-width: fit-content;
     height: auto;
+    margin-right: 0;
 }
+.carousel-indicators [data-bs-target]{
+    
+    border-radius: 50%; /* Make the indicators round */
+    width: 16px; /* Adjust the width as needed */
+    height: 12px; /* Adjust the height as needed */
+    margin: 0 5px; /* Adjust the margin spacing as needed */
+}
+
+
 .movieslist{
     margin-top: 6rem;
 }
